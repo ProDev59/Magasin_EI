@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" stylesheets="@img/main.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.MainController">
+   <children>
+      <ImageView fitHeight="572.0" fitWidth="572.0" layoutX="214.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/screen.png" />
+         </image>
+      </ImageView>
+      <Group fx:id="groupButton" layoutX="926.0" layoutY="725.0" onMouseClicked="#handelClic" styleClass="boutton" stylesheets="@img/main.css">
+         <children>
+            <Circle radius="51.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#06ff4c" />
+                        <Stop color="#08fc86" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <ImageView fitHeight="34.0" fitWidth="38.0" layoutX="-21.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/cadena.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

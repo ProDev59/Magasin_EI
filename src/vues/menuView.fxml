@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" styleClass="fond" stylesheets="@img/main.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.MenuController">
+    <children>
+        <Rectangle fill="#60cefc" height="829.0" stroke="#60cefc" strokeType="INSIDE" width="300.0">
+            <effect>
+                <DropShadow />
+            </effect>
+        </Rectangle>
+        <MenuBar prefHeight="29.0" prefWidth="1000.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ScrollPane hbarPolicy="NEVER" layoutX="10.0" layoutY="179.0" prefHeight="488.0" prefWidth="280.0" styleClass="fond" stylesheets="@img/main.css" vbarPolicy="ALWAYS">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="489.0" prefWidth="264.0" styleClass="fond" stylesheets="@img/main.css">
+                    <children>
+                  <HBox layoutX="7.0" layoutY="14.0" prefHeight="43.0" prefWidth="250.0">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <image>
+                              <Image url="@img/voyant_rouge.png" />
+                           </image>
+                        </ImageView>
+                        <Group fx:id="moteurBtn" onMouseClicked="#handleMoteur" styleClass="boutton" stylesheets="@img/main.css">
+                           <children>
+                              <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#e1e1e1" height="40.0" stroke="#e1e1e1" strokeType="INSIDE" width="200.0" />
+                              <Text layoutX="70.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOTEUR">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="2.0" />
+                           </HBox.margin>
+                        </Group>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="7.0" layoutY="70.0" prefHeight="42.0" prefWidth="239.0">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <image>
+                              <Image url="@img/voyant_vert.png" />
+                           </image>
+                        </ImageView>
+                        <Group fx:id="fusibleBtn" onMouseClicked="#handleFusible" styleClass="boutton" stylesheets="@img/main.css">
+                           <children>
+                              <Rectangle arcHeight="10.0" arcWidth="10.0" fill="#e1e1e1" height="40.0" onMouseClicked="#handleFusible" stroke="#e1e1e1" strokeType="INSIDE" width="200.0" />
+                              <Text layoutX="72.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FUSIBLE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="2.0" />
+                           </HBox.margin>
+                        </Group>
+                     </children>
+                  </HBox>
+                    </children></AnchorPane>
+            </content>
+        </ScrollPane>
+        <VBox layoutY="29.0" prefHeight="150.0" prefWidth="300.0">
+            <children>
+                <Label text="BIENVENU," textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <HBox>
+                    <children>
+                        <Label fx:id="prenomLbl" text="Label" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="nomLbl" text="Label" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </HBox>
+                <HBox layoutX="20.0" layoutY="47.0">
+                    <children>
+                        <Label fx:id="fonctionLbl" text="Label" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="equipeLbl" text="Label" textFill="WHITE">
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </HBox>
+            </children>
+            <padding>
+                <Insets left="10.0" top="10.0" />
+            </padding>
+        </VBox>
+        <AnchorPane fx:id="anchorPane" layoutX="300.0" layoutY="27.0" prefHeight="800.0" prefWidth="700.0" />
+      <Group layoutX="250.0" layoutY="732.0" styleClass="boutton">
+         <children>
+            <Circle fill="ORANGE" radius="40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <ImageView fitHeight="53.0" fitWidth="55.0" layoutX="-26.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/cadi.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+    </children>
+</AnchorPane>

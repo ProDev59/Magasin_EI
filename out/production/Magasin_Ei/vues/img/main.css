@@ -1,0 +1,19 @@
+
+.fond{
+
+    -fx-background-color: white;
+
+}
+
+
+.boutton{
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 15, 0.0 , 0 , 1 );
+
+}
+
+.boutton:hover{
+
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 15, 0.0 , 0 , 3 );
+
+}

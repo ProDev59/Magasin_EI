@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="fond" stylesheets="@img/main.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.MoteurController">
+   <children>
+      <fx:include fx:id="menu" source="menuView.fxml" />
+      <ImageView fitHeight="287.0" fitWidth="433.0" layoutX="500.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/moteur.png" />
+         </image>
+      </ImageView>
+      <Group layoutX="823.0" layoutY="737.0" styleClass="boutton">
+         <children>
+            <Circle fill="RED" radius="27.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="-16.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/moins.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Group layoutX="925.0" layoutY="737.0" styleClass="boutton">
+         <children>
+            <Circle fill="#4bff1f" radius="47.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <ImageView fitHeight="65.0" fitWidth="59.0" layoutX="-29.0" layoutY="-29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/plus.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <Group layoutX="367.0" layoutY="737.0" styleClass="boutton">
+         <children>
+            <Circle fill="#00c6ff" radius="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <ImageView fitHeight="38.0" fitWidth="45.0" layoutX="-19.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/loupe.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+   </children>
+</AnchorPane>
