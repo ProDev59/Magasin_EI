@@ -8,6 +8,8 @@ public class ArticleModel {
     protected String refFournisseur;
     protected int q;
     protected int q_mini;
+    protected String marque;
+    protected String emplacement;
 
 
     public ArticleModel(){
@@ -62,6 +64,21 @@ public class ArticleModel {
         this.q_mini = q_mini;
     }
 
+    public String getMarque() {
+        return marque;
+    }
+
+    public void setMarque(String marque) {
+        this.marque = marque;
+    }
+
+    public String getEmplacement() {
+        return emplacement;
+    }
+
+    public void setEmplacement(String emplacement) {
+        this.emplacement = emplacement;
+    }
 
 
 }

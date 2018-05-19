@@ -7,7 +7,7 @@ public class FusibleModel extends ArticleModel {
     private int intensite;
     private int tension;
 
-    public FusibleModel(String type, String taille, int intensite, int tension, int q_mini, int q, String ref_fourn, String ref_int){
+    public FusibleModel(String type, String taille, int intensite, int tension, int q_mini, int q, String marque ,String ref_fourn, String ref_int, String emplacement){
 
         this.type = type;
         this.taille = taille;
@@ -15,8 +15,10 @@ public class FusibleModel extends ArticleModel {
         this.tension = tension;
         this.q_mini = q_mini;
         this.q = q;
+        this.marque = marque;
         this.refFournisseur = ref_fourn;
         this.refInterne = ref_int;
+        this.emplacement = emplacement;
 
     }
 
@@ -37,7 +39,8 @@ public class FusibleModel extends ArticleModel {
     }
 
     public int getIntensite() {
-        return intensite;
+
+        return this.intensite;
     }
 
     public void setIntensite(int intensite) {

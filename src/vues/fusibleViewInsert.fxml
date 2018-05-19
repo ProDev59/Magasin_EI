@@ -29,26 +29,26 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="TAILLE : " GridPane.rowIndex="1">
+            <Label fx:id="tailleEttiquetteLbl" text="TAILLE : " GridPane.rowIndex="1">
                <padding>
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <Label text="I : " GridPane.rowIndex="2">
+            <Label fx:id="intensiteEttiquetteLbl" text="I : " GridPane.rowIndex="2">
                <padding>
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <Label text="U :" GridPane.rowIndex="3">
+            <Label fx:id="tensionEttiquetteLbl" text="U :" GridPane.rowIndex="3">
                <padding>
                   <Insets left="10.0" />
                </padding>
             </Label>
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="tailleTxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="intensiteTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="tensionTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <ComboBox fx:id="typeCbo" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" />
-            <Label text="TYPE : ">
+            <Label fx:id="typeEttiquetteLbl" text="TYPE : ">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -78,18 +78,18 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="Q stock" />
-            <Label text="Q mini" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Label text="Marque" GridPane.rowIndex="2" />
-            <Label text="Ref fournisseur :" GridPane.rowIndex="3" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Label text="Ref Interne :" GridPane.rowIndex="4" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Label text="Emplacement" GridPane.rowIndex="5" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="q_stock_relle_EttiquetteLbl" text="Q stock" />
+            <Label fx:id="q_stock_mini_EttiquetteLbl" text="Q mini" GridPane.rowIndex="1" />
+            <TextField fx:id="q_stock_rel" GridPane.columnIndex="1" />
+            <TextField fx:id="q_stock_mini" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="marqueTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="marqueEttiquetteLbl" text="Marque" GridPane.rowIndex="2" />
+            <Label fx:id="ref_fournisseurEttiquetteLbl" text="Ref fournisseur :" GridPane.rowIndex="3" />
+            <TextField fx:id="ref_fournisseurTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="ref_interneEttiquetteLbl" text="Ref Interne :" GridPane.rowIndex="4" />
+            <TextField fx:id="ref_interneTxt" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="emplacementEttiquetteLbl" text="Emplacement" GridPane.rowIndex="5" />
+            <TextField fx:id="emplacementTxt" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
       <HBox layoutY="20.0" prefHeight="40.0" prefWidth="600.0">
@@ -106,5 +106,6 @@
          </children>
       </HBox>
       <Label fx:id="typeLbl" layoutX="274.0" layoutY="202.0" textAlignment="CENTER" />
+      <Label fx:id="errorLbl" layoutX="25.0" layoutY="319.0" textFill="RED" />
    </children>
 </AnchorPane>

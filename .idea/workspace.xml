@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/DatabaseConnectionFusibles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/model/ArticleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/model/ArticleModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/model/FusibleData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/model/FusibleData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/model/FusibleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/model/FusibleModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/FusibleControllerInsert$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/FusibleControllerInsert$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/FusibleControllerInsert$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/FusibleControllerInsert$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/FusibleControllerInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/FusibleControllerInsert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/InsertUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/InsertUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/fusibleViewInsert.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magasin_Ei/vues/fusibleViewInsert.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ArticleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ArticleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/FusibleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FusibleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/FusibleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FusibleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vues/FusibleControllerInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vues/FusibleControllerInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vues/InsertUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vues/InsertUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vues/fusibleViewInsert.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/vues/fusibleViewInsert.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.properties" beforeDir="false" afterPath="$PROJECT_DIR$/users.properties" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,7 +80,7 @@
       <file leaf-file-name="FusibleController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vues/FusibleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="184">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,70 +89,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5580">
-              <caret line="441" selection-start-line="441" selection-end-line="441" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertUserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vues/InsertUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1290">
-              <caret line="89" column="11" selection-start-line="79" selection-start-column="8" selection-end-line="89" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#handelQuitter#0;class#InsertUserController#0" />
-                <element signature="method#verifChamps#0;class#InsertUserController#0" />
-                <element signature="method#verifMdp#0;class#InsertUserController#0" />
-                <element signature="method#errorChamps#0;class#InsertUserController#0" />
-                <element signature="method#setDialogue#0;class#InsertUserController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FusibleModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/FusibleModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FusibleControllerInsert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vues/FusibleControllerInsert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+            <state relative-caret-position="300">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#getIntensiteInt#0;class#FusibleModel#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/vues/MenuController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-611">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FusibleData.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FusibleData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/FusibleData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="480">
+              <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,8 +134,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,13 +164,16 @@
         <option value="$PROJECT_DIR$/src/vues/MainApp.java" />
         <option value="$PROJECT_DIR$/src/vues/MoteurController.java" />
         <option value="$PROJECT_DIR$/src/vues/StartController.java" />
-        <option value="$PROJECT_DIR$/src/model/ArticleModel.java" />
-        <option value="$PROJECT_DIR$/src/model/FusibleModel.java" />
         <option value="$PROJECT_DIR$/src/vues/fusibleViewInsert.fxml" />
         <option value="$PROJECT_DIR$/src/vues/FusibleController.java" />
-        <option value="$PROJECT_DIR$/src/vues/InsertUserController.java" />
-        <option value="$PROJECT_DIR$/src/vues/FusibleControllerInsert.java" />
         <option value="$PROJECT_DIR$/src/vues/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/model/DatabaseConnectionFusibles.java" />
+        <option value="$PROJECT_DIR$/src/vues/InsertUserController.java" />
+        <option value="$PROJECT_DIR$/src/model/ArticleModel.java" />
+        <option value="$PROJECT_DIR$/src/model/FusibleModel.java" />
+        <option value="$PROJECT_DIR$/fusibles.script" />
+        <option value="$PROJECT_DIR$/src/vues/FusibleControllerInsert.java" />
+        <option value="$PROJECT_DIR$/src/model/FusibleData.java" />
       </list>
     </option>
   </component>
@@ -237,12 +218,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="vues" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Magasin_Ei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,6 +244,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -398,17 +384,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="117" y="78" width="1187" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32991013" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021834" side_tool="true" visible="true" weight="0.32991013" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50043666" side_tool="true" weight="0.27086008" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27086008" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49344978" weight="0.32991013" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4978166" visible="true" weight="0.32991013" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49868995" weight="0.32991013" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995633" visible="true" weight="0.27086008" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24978165" />
@@ -416,40 +404,20 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50043666" side_tool="true" visible="true" weight="0.32991013" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24541485" />
-      <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Profiler" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Changes" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995633" visible="true" weight="0.32991013" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27086008" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32991013" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
+      <window_info anchor="bottom" id="Changes" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Profiler" order="7" />
+      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" />
@@ -518,12 +486,15 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src" />
+    </ignored-roots>
     <MESSAGE value="projet ei magasin 2018" />
     <option name="LAST_COMMIT_MESSAGE" value="projet ei magasin 2018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -531,26 +502,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/FusibleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FusibleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vues/FusibleControllerInsert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#verifChamps#0;class#FusibleControllerInsert#0" />
+            <element signature="method#errorChamps#0;class#FusibleControllerInsert#0" />
           </folding>
         </state>
       </provider>
@@ -561,6 +520,8 @@
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#verifChamps#0;class#FusibleControllerInsert#0" />
+            <element signature="method#errorChamps#0;class#FusibleControllerInsert#0" />
           </folding>
         </state>
       </provider>
@@ -687,9 +648,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#handelQuitter#0;class#InsertUserController#0" />
-            <element signature="method#verifChamps#0;class#InsertUserController#0" />
             <element signature="method#verifMdp#0;class#InsertUserController#0" />
-            <element signature="method#errorChamps#0;class#InsertUserController#0" />
             <element signature="method#setDialogue#0;class#InsertUserController#0" />
           </folding>
         </state>
@@ -742,9 +701,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#handelQuitter#0;class#InsertUserController#0" />
-            <element signature="method#verifChamps#0;class#InsertUserController#0" />
             <element signature="method#verifMdp#0;class#InsertUserController#0" />
-            <element signature="method#errorChamps#0;class#InsertUserController#0" />
             <element signature="method#setDialogue#0;class#InsertUserController#0" />
           </folding>
         </state>
@@ -800,13 +757,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/DatabaseConnectionUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users.script">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -859,27 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ArticleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FusibleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FusibleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -897,44 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vues/LoginUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2167">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#handelquitter#0;class#LoginUserController#0" />
-            <element signature="method#handelInsert#0;class#LoginUserController#0" />
-            <element signature="method#verifChamps#0;class#LoginUserController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/UsersData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1354">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vues/InsertUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="89" column="11" selection-start-line="79" selection-start-column="8" selection-end-line="89" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#handelQuitter#0;class#InsertUserController#0" />
-            <element signature="method#verifChamps#0;class#InsertUserController#0" />
-            <element signature="method#verifMdp#0;class#InsertUserController#0" />
-            <element signature="method#errorChamps#0;class#InsertUserController#0" />
-            <element signature="method#setDialogue#0;class#InsertUserController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5580">
@@ -942,20 +833,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vues/FusibleController.java">
+    <entry file="file://$PROJECT_DIR$/src/model/DatabaseConnectionUsers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vues/FusibleControllerInsert.java">
+    <entry file="file://$PROJECT_DIR$/src/model/DatabaseConnectionFusibles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state relative-caret-position="68">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -964,8 +855,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vues/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
+        <state relative-caret-position="14">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vues/FusibleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vues/LoginUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1305">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#handelquitter#0;class#LoginUserController#0" />
+            <element signature="method#handelInsert#0;class#LoginUserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/UsersData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="157" column="5" lean-forward="true" selection-start-line="139" selection-start-column="3" selection-end-line="157" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ArticleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vues/InsertUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-809">
+          <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#handelQuitter#0;class#InsertUserController#0" />
+            <element signature="method#verifMdp#0;class#InsertUserController#0" />
+            <element signature="method#setDialogue#0;class#InsertUserController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fusibles.script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vues/FusibleControllerInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="153" column="61" selection-start-line="153" selection-start-column="61" selection-end-line="153" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#verifChamps#0;class#FusibleControllerInsert#0" />
+            <element signature="method#errorChamps#0;class#FusibleControllerInsert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FusibleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="method#getIntensiteInt#0;class#FusibleModel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FusibleData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

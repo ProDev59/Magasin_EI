@@ -232,8 +232,8 @@ public class InsertUserController {
                 }
 
             } catch (SQLException e) {
-                //e.printStackTrace();
-                e.getMessage();
+                e.printStackTrace();
+                //e.getMessage();
             }
 
             this.dialogue.close();
